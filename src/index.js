@@ -6,5 +6,5 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <h1>Hi, world!</h1>,
-    document.getElementById('root')
+    document.getElementById('root2')
 )
