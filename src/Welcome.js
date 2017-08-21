@@ -6,7 +6,12 @@ class Welcome extends React.Component {
         this.state = {
             date: new Date()
         }
-    }
+        setInterval(function(){
+            this.setState({
+                date: new Date()
+            })
+        }.bind(this))         
+    }  
     render() {
         return (
             <div>
